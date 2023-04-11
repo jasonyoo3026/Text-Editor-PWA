@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text editor'
+        title: 'Just Another Text editor'
       }),
 
       new InjectManifest({
@@ -32,9 +32,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'jate',
-        short_name: 'JATE',
-        description: 'Text editor',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A,T.E',
+        description: 'Take notes with JavaScript Syntax highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: './',
@@ -48,7 +48,7 @@ module.exports = () => {
         ],
       }),
     ],
-    
+
     module: {
       // CSS loaders
       rules: [
