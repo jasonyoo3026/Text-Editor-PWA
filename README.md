@@ -3,7 +3,7 @@
 ## Deployed app
 
 This applicaion can be found from the link below:
-
+https://still-fortress-36681.herokuapp.com/
 
 ## Introduction
 
